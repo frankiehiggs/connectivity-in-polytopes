@@ -284,6 +284,4 @@ if __name__=='__main__':
     seed = int(now.strftime("%d%H%M%S"))
     np.random.seed(seed)
     
-    # produce_normalised_diagram(shape)
-    # produce_diagram(1000,shape)
     produce_normalised_diagram(Nmax,shape,outname=f'diagrams/pdfs/{shape}-{now.strftime("%y-%m-%d-%H:%M:%S")}.pdf')
