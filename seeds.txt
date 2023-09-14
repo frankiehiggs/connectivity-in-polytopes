@@ -1,0 +1,13 @@
+The seeds for the diagrams used in the paper:
+
+Square:
+13215750
+
+Tetrahedron:
+14022719
+
+Dodecahedron:
+14105544
+
+4-dimensional simplex ('cut-simplex'):
+14104546
