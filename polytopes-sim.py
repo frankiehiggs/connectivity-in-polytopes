@@ -52,6 +52,7 @@ def sample_points(N,domain):
         and has side length sqrt(2)
         The angle between faces is arccos(1/3).
         Gardner, M. "Tetrahedrons." Ch. 19 in The Sixth Book of Mathematical Games from Scientific American. Chicago, IL: University of Chicago Press, pp. 183-194, 1984.
+        See https://mathworld.wolfram.com/RegularTetrahedron.html .
         We divide all the coordinates by sqrt(2) at the end
         so that we have a tetrahedron with side length 1.
         """
