@@ -22,7 +22,8 @@ def limit_and_dim(shape):
         constant = (15 + 7*np.sqrt(5))/(4*np.pi)
         dim = 3
     elif shape == '4d-simplex':
-        constant = 0 # I haven't worked this out yet. I suspect it occurs one of the 2d faces which do not intersect the origin
+        print("Please note the limit term won't be plotted for this shape. The limit could be estimated by making a few minor changes to the experiments carried out in simplex-cones-compuation.py from this repository.")
+        constant = 0 # I suspect the limit comes from one of the 2d faces which do not intersect the origin
         # i.e. on the convex hull of three of the standard unit vectors.
         dim = 4
     elif shape=='cut-simplex':
